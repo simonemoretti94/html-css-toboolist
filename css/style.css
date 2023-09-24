@@ -1,0 +1,96 @@
+:root {
+    --tobolist-background1: rgb(255, 255, 255);
+    --tobolist-background2: grey;
+    --tobolist-buttonblue: blue;
+    --tobolist-buttonviolet: violet;
+    --tobolist-buttongreen: rgb(46, 164, 46);
+    --tobolist-buttonorange: orange;
+    --tobolist-buttongreenlight: rgb(42, 232, 42);
+}
+
+
+#header {
+    background-color: var(--tobolist-background1);
+    height: 60px;
+
+}
+
+#toboolist-logo {
+    width: auto;
+    height: auto;
+    margin-right: 0.5rem;
+}
+
+#Toboolist {
+    margin-top: 0;
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+
+
+
+#main {
+    margin-top: 2rem;
+    width: 80%;
+    margin: auto;
+}
+
+#div1 {
+    padding-bottom: 2rem;
+}
+
+.pblue15 {
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    color: white;
+    background-color: var(--tobolist-buttonblue);
+    padding: 1rem 1rem 1rem 1rem;
+    border: solid;
+    border-width: 1px 1px 1px 1px;
+    display: inline-block;  
+    border-radius: 15%;  
+}
+
+.pwhite {
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    color: var(--tobolist-background2);
+    background-color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border: solid;
+    border-width: 1px 1px 1px 1px;
+    display: inline-block;
+    border-radius: 15%;  
+}
+
+#new_task{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.pblue25 {
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    color: white;
+    background-color: var(--tobolist-buttonblue);
+    padding: 1rem 1rem 1rem 1rem;
+    border: solid;
+    border-width: 1px 1px 1px 1px;
+    display: inline-block;  
+    border-radius: 25%;  
+}
+
+.psub {
+    font-size: large;
+    font-weight: 500;
+}
