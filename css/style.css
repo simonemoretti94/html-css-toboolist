@@ -76,6 +76,10 @@
     border-radius: 15%;  
 }
 
+.downward_arrow {
+    display: inline-block;
+}
+
 #check {
     background-color: white;
     color: var(--tobolist-buttongreenlight);
@@ -100,11 +104,12 @@
     margin-right: .5rem;
 }
 
-#h1 {
+#section_h1 {
     font-family: 'Open Sans', sans-serif;
     color: black;
     font-size: x-large;
-    font-weight: 900;
+    font-weight: bolder;
+    display: inline-block;
 }
 
 .pblue20 {
@@ -118,7 +123,7 @@
     border: solid;
     border-width: 1px 1px 1px 1px;
     display: inline-block;  
-    border-radius: 20%;
+    border-radius: 32%;
     margin-left: .5rem;
 }
 
@@ -139,7 +144,7 @@
     border: solid;
     border-width: 1px 1px 1px 1px;
     display: inline-block;  
-    border-radius: 20%;
+    border-radius: 32%;
     margin-left: .5rem;
 }
 
@@ -154,7 +159,7 @@
     border: solid;
     border-width: 1px 1px 1px 1px;
     display: inline-block;  
-    border-radius: 20%;
+    border-radius: 32%;
     margin-left: .5rem;  
 }
 
@@ -169,7 +174,7 @@
     border: solid;
     border-width: 1px 1px 1px 1px;
     display: inline-block;  
-    border-radius: 20%;
+    border-radius: 32%;
     margin-left: .5rem;  
 }
 
@@ -184,7 +189,7 @@
     border: solid;
     border-width: 1px 1px 1px 1px;
     display: inline-block;  
-    border-radius: 20%;
+    border-radius: 32%;
     margin-left: .5rem;  
 }
 
@@ -199,6 +204,6 @@
     border: solid;
     border-width: 1px 1px 1px 1px;
     display: inline-block;  
-    border-radius: 20%;
+    border-radius: 32%;
     margin-left: .5rem;  
 }
