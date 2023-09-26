@@ -1,6 +1,6 @@
 :root {
     --tobolist-background1: rgb(255, 255, 255);
-    --tobolist-background2: grey;
+    --tobolist-background2: rgb(234, 233, 233);
     --tobolist-buttonblue: blue;
     --tobolist-buttonviolet: rgb(175, 57, 175);
     --tobolist-buttonpink: rgb(215, 129, 168);
@@ -10,8 +10,12 @@
     --tobolist-buttonred: red;
 }
 
+body {
+    background-color: var(--tobolist-background2);
+}
 
 #header {
+    
     background-color: var(--tobolist-background1);
     height: 100px;
 
@@ -35,6 +39,7 @@
 
 
 #main {
+    background-color: var(--tobolist-background1);
     margin-top: 2rem;
     width: 80%;
     margin-left: auto;
